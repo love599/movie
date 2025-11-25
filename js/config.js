@@ -9,24 +9,24 @@ const SEARCH_CACHE_CONFIG = {
     enabled: true // 是否启用搜索缓存
 };
 
-window.SEARCH_CACHE_CONFIG = SEARCH_CACHE_CONFIG;
+window。SEARCH_CACHE_CONFIG = SEARCH_CACHE_CONFIG;
 
 // 密码保护配置
-window.PASSWORD_CONFIG = window.PASSWORD_CONFIG || {
+window。PASSWORD_CONFIG = window。PASSWORD_CONFIG || {
     localStorageKey: 'passwordVerified',
     settingsLocalStorageKey: 'settingsPasswordVerified', // 设置按钮密码
     verificationTTL: 90 * 24 * 60 * 60 * 1000, // 90天验证有效期 
 };
 // 网站信息配置
 const SITE_CONFIG = {
-    name: 'x',
+    name: '久久影视',
     url: '',
     description: '',
     logo: '',
     version: ''
 };
 
-window.SITE_CONFIG = SITE_CONFIG;
+window。SITE_CONFIG = SITE_CONFIG;
 
 // API站点配置
 const API_SITES = {
@@ -52,9 +52,9 @@ const API_SITES = {
     // huya: { api: 'https://www.huyaapi.com/api.php/provide/vod', name: '虎牙资源', detail: 'https://www.huyaapi.com' },  
 };
 
-window.API_SITES = API_SITES;
+window。API_SITES = API_SITES;
 const DEFAULT_SELECTED_APIS = ["mozhua", "bfzy", "dyttzy", "maotai", "tyyszy", "mdzy"];
-window.DEFAULT_SELECTED_APIS = DEFAULT_SELECTED_APIS;
+window。DEFAULT_SELECTED_APIS = DEFAULT_SELECTED_APIS;
 
 // 聚合搜索配置
 const AGGREGATED_SEARCH_CONFIG = {
