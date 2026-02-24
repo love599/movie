@@ -22,7 +22,7 @@ if (typeof window !== 'undefined') {
 
 // 网站信息配置
 const SITE_CONFIG = {
-    name: 'x',
+    name: '久久影视',
     url: '',
     description: '',
     logo: '',
